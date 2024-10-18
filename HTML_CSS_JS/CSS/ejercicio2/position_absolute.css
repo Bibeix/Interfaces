@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  width: 300px;
+  margin: 0px auto;
+  line-height: 50px;
+}
+
+#container {
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.caja {
+  display: block;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#caja1 {
+  background-color: brown;
+}
+#caja2 {
+  background-color: red;
+}
+
+/*Inicalmente se posiciona arriba a la izquierda de la ventana
+ porque al no estar dentro de un contenedor con position distinto a static,
+ usa la propia ventana del navegador como referencia para posicionarse.
+ 
+ Una vez se le aplca position:relative al div contenedor,
+ pasa a posicionarse en relación a este, ignorando el resto de elementos que contiene
+ y por tanto superponiéndose a las cajas 1 y 2*/
+#caja3 {
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+#caja4 {
+  background-color: blue;
+}
+#caja5 {
+  background-color: green;
+}
+#caja6 {
+  background-color: orange;
+}
