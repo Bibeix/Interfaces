@@ -81,6 +81,9 @@ header{
     cursor: pointer;
     background-color: rgb(50,50,200);
     transition: 300ms;
+}
+
+#contenido .caja:hover>h4{
     color: wheat;
 }
 
