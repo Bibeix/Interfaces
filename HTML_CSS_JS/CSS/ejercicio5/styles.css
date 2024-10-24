@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+#container{
+    width: 90%;
+    margin: 2vw auto 2vw auto;
+    border-bottom: solid black;
+    box-shadow: 1px 1px 4px rgb(59, 59, 59);
+}
+
+/*CABECERA*/
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(100, 100, 100);
+}
+
+.logo{
+    flex-basis: 50%;
+}
