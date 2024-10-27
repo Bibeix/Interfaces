@@ -1,0 +1,20 @@
+@media(max-width: 800px){
+    #content{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+}
+
+/*POR ALGUNA RAZÓN QUE NO ENTIENDO EL DE ABAJO NO SE APLICA 
+(O AL MENOS NO SE VE EN MI NAVEGADOR),
+PROBÉ A CAMBIAR EL ORDEN Y LO COMPROBÉ CAMBIANDO EL COLOR DE FONDO Y NADA*/
+@media(max-width: 500px){
+    #content{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    #footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
